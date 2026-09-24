@@ -24,4 +24,6 @@
 
 #Wydaje mi się, że poszło mi dobrze. Aplikacja działa i moim zdaniem nie trzeba już nic dodawać ani zmieniać. 
 
+#dodalem wszystko do repozytorium
+
  

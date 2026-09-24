@@ -1,0 +1,31 @@
+<Application x:Class="WordlePL.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Paleta kolorów Dark Mode / Wordle -->
+        <Color x:Key="BgColor">#121213</Color>
+        <Color x:Key="CardBg">#1e1e20</Color>
+        <Color x:Key="TileBorderEmpty">#3a3a3c</Color>
+        <Color x:Key="TileBorderFilled">#565758</Color>
+        <Color x:Key="TextColor">#f8f9fa</Color>
+        <Color x:Key="TextMuted">#818384</Color>
+
+        <Color x:Key="CorrectColor">#538d4e</Color>
+        <Color x:Key="PresentColor">#b59f3b</Color>
+        <Color x:Key="AbsentColor">#3a3a3c</Color>
+        <Color x:Key="KeyDefault">#818384</Color>
+
+        <SolidColorBrush x:Key="BgBrush" Color="{StaticResource BgColor}" />
+        <SolidColorBrush x:Key="CardBgBrush" Color="{StaticResource CardBg}" />
+        <SolidColorBrush x:Key="TileBorderEmptyBrush" Color="{StaticResource TileBorderEmpty}" />
+        <SolidColorBrush x:Key="TileBorderFilledBrush" Color="{StaticResource TileBorderFilled}" />
+        <SolidColorBrush x:Key="TextBrush" Color="{StaticResource TextColor}" />
+        <SolidColorBrush x:Key="TextMutedBrush" Color="{StaticResource TextMuted}" />
+
+        <SolidColorBrush x:Key="CorrectBrush" Color="{StaticResource CorrectColor}" />
+        <SolidColorBrush x:Key="PresentBrush" Color="{StaticResource PresentColor}" />
+        <SolidColorBrush x:Key="AbsentBrush" Color="{StaticResource AbsentColor}" />
+        <SolidColorBrush x:Key="KeyDefaultBrush" Color="{StaticResource KeyDefault}" />
+    </Application.Resources>
+</Application>

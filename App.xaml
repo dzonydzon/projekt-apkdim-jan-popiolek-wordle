@@ -5,16 +5,16 @@
     <Application.Resources>
         <!-- Paleta kolorów Dark Mode / Wordle -->
         <Color x:Key="BgColor">#121213</Color>
-        <Color x:Key="CardBg">#1e1e20</Color>
-        <Color x:Key="TileBorderEmpty">#3a3a3c</Color>
-        <Color x:Key="TileBorderFilled">#565758</Color>
-        <Color x:Key="TextColor">#f8f9fa</Color>
-        <Color x:Key="TextMuted">#818384</Color>
+        <Color x:Key="CardBg">#1b1b1d</Color>
+        <Color x:Key="TileBorderEmpty">#4a4a4d</Color>
+        <Color x:Key="TileBorderFilled">#66686b</Color>
+        <Color x:Key="TextColor">#f2f4f5</Color>
+        <Color x:Key="TextMuted">#8e9398</Color>
 
-        <Color x:Key="CorrectColor">#538d4e</Color>
-        <Color x:Key="PresentColor">#b59f3b</Color>
-        <Color x:Key="AbsentColor">#3a3a3c</Color>
-        <Color x:Key="KeyDefault">#818384</Color>
+        <Color x:Key="CorrectColor">#6ea66d</Color>
+        <Color x:Key="PresentColor">#d4c26a</Color>
+        <Color x:Key="AbsentColor">#4a4a4d</Color>
+        <Color x:Key="KeyDefault">#7d8187</Color>
 
         <SolidColorBrush x:Key="BgBrush" Color="{StaticResource BgColor}" />
         <SolidColorBrush x:Key="CardBgBrush" Color="{StaticResource CardBg}" />

@@ -11,14 +11,14 @@ using System.Windows.Media.Animation;
 
 public partial class MainWindow : Window
 {
-    // ── Kolory (Wordle palette) ──
-    private static readonly SolidColorBrush CorrectBrush  = new(Color.FromRgb(0x53, 0x8d, 0x4e));
-    private static readonly SolidColorBrush PresentBrush  = new(Color.FromRgb(0xb5, 0x9f, 0x3b));
-    private static readonly SolidColorBrush AbsentBrush   = new(Color.FromRgb(0x3a, 0x3a, 0x3c));
-    private static readonly SolidColorBrush EmptyBorder   = new(Color.FromRgb(0x3a, 0x3a, 0x3c));
-    private static readonly SolidColorBrush FilledBorder  = new(Color.FromRgb(0x56, 0x57, 0x58));
-    private static readonly SolidColorBrush KeyDefault    = new(Color.FromRgb(0x81, 0x83, 0x84));
-    private static readonly SolidColorBrush TextWhite     = new(Color.FromRgb(0xf8, 0xf9, 0xfa));
+    // ── Kolory (delikatnie poprawiona paleta) ──
+    private static readonly SolidColorBrush CorrectBrush  = new(Color.FromRgb(0x6e, 0xa6, 0x6d));
+    private static readonly SolidColorBrush PresentBrush  = new(Color.FromRgb(0xd4, 0xc2, 0x6a));
+    private static readonly SolidColorBrush AbsentBrush   = new(Color.FromRgb(0x4a, 0x4a, 0x4d));
+    private static readonly SolidColorBrush EmptyBorder   = new(Color.FromRgb(0x4a, 0x4a, 0x4d));
+    private static readonly SolidColorBrush FilledBorder  = new(Color.FromRgb(0x66, 0x68, 0x6b));
+    private static readonly SolidColorBrush KeyDefault    = new(Color.FromRgb(0x7d, 0x81, 0x87));
+    private static readonly SolidColorBrush TextWhite     = new(Color.FromRgb(0xf2, 0xf4, 0xf5));
     private static readonly SolidColorBrush TransparentBg = Brushes.Transparent;
 
     // ── Układ klawiatury ──
